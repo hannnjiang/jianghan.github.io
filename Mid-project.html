@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jiang Han's Homepage</title>
+        <style>
+            html {
+                height: 100%;
+            }
+
+            body {
+                height: 30%;
+            }
+
+            /*page title*/
+            .parallax {
+                background-image: url("https://img.tukuppt.com//ad_preview/00/09/88/5c9922aaad786.jpg!/fw/980");
+                min-height: 100%;
+                position: relative;
+                opacity: 0.65;
+                background-attachment: fixed;
+                background-position: top;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            .caption {
+                position: absolute;
+                left: 0;
+                top: 30%;
+                width: 100%;
+                text-align: center;
+                color: #000;
+                font-family: "Bradley Hand ITC";
+                font-size: 40px;
+            }
+
+            .caption span.cap_border {
+                /*background-color: rgb(204, 213, 174);*/
+                color: black;
+                padding: 18px;
+                font-weight: bold;
+                font-size: 40px;
+                letter-spacing: 5px;
+            }
+
+            /*navigation bar*/
+            .container {
+                position: absolute;
+                text-align: center;
+                width: 99%;
+            }
+            
+            .topnav {
+                overflow: hidden;
+                background-color: rgba(7, 128, 37, 0.74);
+                
+            }
+
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: auto;
+                font-family: "Ami R";
+                font-size: 20px;
+                
+            }
+
+            .topnav a:hover {
+                background-color: rgb(204,213,174);
+                color: black;
+            }
+
+            /*page body part*/
+            .page {
+                height: 700px;
+                background-color: rgb(245,250,224);
+                font-size: 36px;
+            }
+
+            .card {
+                background: white;
+                margin-bottom: 15px;
+                margin-right: 15px;
+                box-shadow: 0 10px 12px rgb(0 0 0 / 20%);
+                border-radius: 15px;
+                transform: translate(50px, 80px);
+            }
+
+            .left_intro {
+                padding: 30px 30px;
+                width: 35%;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .circle--square {
+                border-radius: 50%;
+            }
+
+            p.school::before {
+                content: '';
+                display: inline-block;
+                background-image: url("https://www.polyu.edu.hk/-/media/department/home/content/about-polyu/university-identity/logo_1200x672_with-bg.jpg?bc=ffffff&h=672&w=1200&hash=1926F740ED2625DA22965BBE21D46D7A");
+                background-size: 57.1px 31.9px;
+                width: 57.1px;
+                height: 31.9px;
+            }
+
+            .app {
+                width: 4px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="parallax">
+            <div class="caption">
+                <span class="cap_border">JIANG Han's Personal Homepage</span>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="topnav">
+                <a href="#home">Home</a>
+                <a href="#intro">personal introduction</a>
+                <a href="./default.txt" target="_blank">Curriculum Vitae</a>
+                
+            </div>
+        </div>
+        
+        <div class="page" id="home">
+            <div class="left_intro card"> <!--记得参考下Linkedin-->
+                <div>
+                    <img class="circle--square" src="http://y.qichejiashi.com/tupian/upload/70567147.jpg" alt="my_pic" width="200px" line-height="50%">
+                </div>
+                <div class="name" style="text-align:center;">
+                    <h5>Jiang Han 蒋晗</h5>
+                </div>
+                <hr>
+                <div class="uni_grade" style="font-size:5px;">
+                    <br>
+                    <p class="school" style="font-size:15px;color:grey;vertical-align:middle;overflow:hidden;">The Hong Kong Polytechnic University</p>
+                </div>
+                <!--这部分用img_split或者map navi做小图标 跳转至相对应的界面：facebook instagram linkedin-->
+                <div>
+                    <h4>Follow me on</h4>
+                    <img width="100" src="https://www.zhouxingxing.fun/img/GitHub-black.png">
+                    <img width="100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/800px-LinkedIn_icon_circle.svg.png">
+                    <img width="100" src="https://04.cadwork.com/wp-content/uploads/logo-facebook.png">
+                </div>
+            </div>
+            <div class="right_up card">
+                <p>hello</p>
+            </div>
+
+            <div class="right_intro card">
+
+            </div>
+
+            <div class="right_bottom_video">
+
+            </div>
+        </div>
+    </body>
+</html>
